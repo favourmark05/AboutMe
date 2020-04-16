@@ -1,0 +1,177 @@
+/* Global stylings */
+html{
+    box-sizing: border-box;
+    font-size: 62.5%
+}
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+a,a::after,
+a::before, a:link{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+.anchor{
+    /* font-size: 10px !important; */
+}
+
+body{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #777;
+    overflow-x: hidden;
+    position: relative;
+}
+.navbar, .nav-link{
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+.navbar{
+    transition: background-color 1s;
+}
+.nav-logo{
+    float: left;
+    padding: 10px 15px;
+}
+.open-nav{
+    float: right !important;
+    padding: 10px 15px;;
+}
+
+/* Overlay Navigation styling here */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+.dark {
+    color: white !important;
+    background-color: rgba(159, 243, 156, 0.568) !important;
+    transition: background-color 1s;
+    /*padding-top: 20px;*/
+}
+
+/* Index stylings */
+.welcome-sect{
+    background-image:linear-gradient(
+        to right bottom,
+         hsl(120, 1%, 26%),
+          rgba(96, 97, 97, 0.432) ), 
+    url(img/home.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%)
+}
+
+.welcome-contents{
+    padding-top: 40vh;
+}
+.welcome-btn{
+    display: block;
+    text-align: center;
+    /* background-color: #fff; */
+    border: 1px solid white;
+    border-radius: 20px 20px;
+    width: 50%;
+    padding: 7px;
+    margin: 7px;
+    font-size: 20px;
+    text-decoration: none !important;
+    color: white;
+}
+.welcome-btn:hover{
+    background-color: white;
+    color: #777;
+}
+
+.welcome-carousel{
+    padding-top: 10vh;
+}
+.carousel-text{
+    text-align: center;
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+/* this is the styling for the about page */
+.about-welcome-sect{
+    background-image:linear-gradient(
+        to right bottom,
+         hsl(120, 1%, 26%),
+          rgba(96, 97, 97, 0.432) ), 
+    url(img/home.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%)
+}
+.about-welcome-sect > h1{
+    color: white;
+    font-size: 10vh;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+}
+
