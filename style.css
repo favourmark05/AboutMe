@@ -182,6 +182,14 @@ body{
     text-align: center;
     font-family: 'Pacifico', cursive !important;
 }
+.container > h5{
+    color: white;
+    font-size: 9vh;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    text-align: center;
+    font-family: 'Pacifico', cursive !important;
+}
 /* .buttons{
     position: absolute;
     margin-top: -30vh;
@@ -221,30 +229,3 @@ body{
 .skill-mf > span {
     font-weight: bolder !important;
 }
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* media queries */
-/* @media only screen and (max-width: 350px) {
-    .carousel-text{
-        font-size: 100px !important;
-        color: red !important;
-    }
-} */
