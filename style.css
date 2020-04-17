@@ -172,7 +172,7 @@ body{
     background-repeat: no-repeat;
     background-position: top;
     height: 100vh;
-    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%)
+    /* clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%) */
 }
 .about-welcome-sect > h1{
     color: white;
@@ -228,4 +228,8 @@ body{
 }
 .skill-mf > span {
     font-weight: bolder !important;
+}
+.fa{
+    color: white !important;
+    font-size: 25px !important;
 }
