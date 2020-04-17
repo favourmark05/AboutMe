@@ -20,8 +20,11 @@ a:hover{
     text-decoration: none;
     color: white;
 }
-.anchor{
-    /* font-size: 10px !important; */
+.Mark {
+    text-decoration: none !important;
+    color: white !important;
+    font-size: 30px !important;
+    font-weight: bolder !important;
 }
 
 body{
@@ -171,11 +174,15 @@ body{
 .about-welcome-sect > h1{
     color: white;
     font-size: 19vh;
-    padding-top: 40vh;
+    padding-top: 20vh;
     padding-bottom: 30vh;
     text-align: center;
     font-family: 'Pacifico', cursive !important;
 }
+/* .buttons{
+    position: absolute;
+    margin-top: -30vh;
+} */
 .card{
     border: none !important;
 }
@@ -194,7 +201,22 @@ body{
     font-size: 20px;
     text-align: start !important;
 }
-.title-s{
+.title-s {
     font-weight: bolder;
 }
+.skill-mf > p{
+    font-size: 30px !important;
+}
+.skill-mf > span {
+    font-size: 20px;
+}
+.title-ss{
+    font-weight: bolder;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+}
+.skill-mf > span {
+    font-weight: bolder !important;
+}
+    
 
