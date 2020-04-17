@@ -26,6 +26,9 @@ a:hover{
     font-size: 30px !important;
     font-weight: bolder !important;
 }
+.Mark:hover {
+    /* color: rgb(155, 5, 5) !important; */
+}
 
 body{
     font-family: sans-serif;
@@ -220,3 +223,28 @@ body{
 }
     
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+/* @media only screen and (max-width: 350px) {
+    .carousel-text{
+        font-size: 100px !important;
+        color: red !important;
+    }
+} */
