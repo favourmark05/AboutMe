@@ -26,9 +26,6 @@ a:hover{
     font-size: 30px !important;
     font-weight: bolder !important;
 }
-.Mark:hover {
-    /* color: rgb(155, 5, 5) !important; */
-}
 
 body{
     font-family: sans-serif;
@@ -232,4 +229,33 @@ body{
 .fa{
     color: white !important;
     font-size: 25px !important;
+}
+
+/* this is the styling for the project page */
+
+.nav-link{
+    color: white !important;
+}
+.navbar-brand{
+    font-size: 20px !important;
+    font-weight: bolder !important;
+}
+.icon{
+    color: white !important;
+    background-color: white !important;
+}
+.nav-link:hover{
+    transition: 1s ;
+    border-bottom: 3px solid red;
+}
+.active-now{
+    color: rgb(15, 231, 15) !important;
+}
+.card-project{
+    border-left: 20px solid green !important;
+}
+small{
+    font-size: 20px !important;
+    font-weight: lighter !important;
+    color: rgba(0, 0, 0, 0.397);
 }
