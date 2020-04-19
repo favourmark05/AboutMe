@@ -203,7 +203,8 @@ body{
 }
 #card-text {
     font-size: 20px !important;
-    text-align: start !important;
+    /* text-align: start !important; */
+    font-family: monospace;
 }
 .about-info > p {
     font-size: 20px;
@@ -229,6 +230,12 @@ body{
 .fa{
     color: white !important;
     font-size: 25px !important;
+}
+td{
+    font-size: 2.5vh;
+}
+th{
+    font-size: 3vh;
 }
 
 /* this is the styling for the project page */
@@ -258,4 +265,8 @@ small{
     font-size: 20px !important;
     font-weight: lighter !important;
     color: rgba(0, 0, 0, 0.397);
+}
+
+footer{
+    font-size: 2vh;
 }
