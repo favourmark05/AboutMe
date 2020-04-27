@@ -270,3 +270,7 @@ small{
 footer{
     font-size: 2vh;
 }
+
+.resume{
+    color: red !important;
+}
